@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroHub - Техніка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+        <header class="main-header">
+            <h1>Electro<span class="accent">Hub</span></h1>
+            <p class="subtitle">Твій світ технологій</p>
+        </header>
+
+        <div class="content-container">
+            
+            <input type="radio" name="filter" id="f-all" checked>
+            <input type="radio" name="filter" id="f-phone">
+            <input type="radio" name="filter" id="f-laptop">
+            <input type="radio" name="filter" id="f-audio">
+            <input type="radio" name="filter" id="f-watch">
+
+            <main class="gallery">
+                
+                <article class="card phone">
+                    <div class="card-top">
+                        <div class="card-img">
+                            <img src="img/phone.jpg" alt="Smartphone X">
+                        </div>
+                        <div class="card-title">
+                            <h3>Смартфон<br><strong>Galaxy Ultra</strong></h3>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <p class="price">60 000 ₴</p>
+                        <p class="desc">Потужний процесор</p>
+                    </div>
+                </article>
+
+                <article class="card laptop">
+                    <div class="card-top">
+                        <div class="card-img">
+                            <img src="img/laptop.jpg" alt="ProBook">
+                        </div>
+                        <div class="card-title">
+                            <h3>Ноутбук<br><strong>ProBook 15</strong></h3>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <p class="price">25 000 ₴</p>
+                        <p class="desc">Для роботи та ігор</p>
+                    </div>
+                </article>
+
+                <article class="card audio">
+                    <div class="card-top">
+                        <div class="card-img">
+                            <img src="img/headphones.jpg" alt="Bass Sound">
+                        </div>
+                        <div class="card-title">
+                            <h3>Навушники<br><strong>Marahall</strong></h3>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <p class="price">5 000 ₴</p>
+                        <p class="desc">Шумозаглушення</p>
+                    </div>
+                </article>
+
+                <article class="card watch">
+                    <div class="card-top">
+                        <div class="card-img">
+                            <img src="img/watch.jpg" alt="Smart Watch">
+                        </div>
+                        <div class="card-title">
+                            <h3>Смарт-годинник<br><strong>Apple watch</strong></h3>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <p class="price">30 000 ₴</p>
+                        <p class="desc">Контроль здоров'я</p>
+                    </div>
+                </article>
+
+                <article class="card phone">
+                    <div class="card-top">
+                        <div class="card-img">
+                            <img src="img/phone2.jpg" alt="iPhone Model">
+                        </div>
+                        <div class="card-title">
+                            <h3>Смартфон<br><strong>Iphone Pro 17</strong></h3>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <p class="price">70 000 ₴</p>
+                        <p class="desc">Нова камера</p>
+                    </div>
+                </article>
+
+                <article class="card laptop">
+                    <div class="card-top">
+                        <div class="card-img">
+                            <img src="img/tablet.jpg" alt="Tablet Pro">
+                        </div>
+                        <div class="card-title">
+                            <h3>Планшет<br><strong>Tab Ultra</strong></h3>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <p class="price">70 000 ₴</p>
+                        <p class="desc">Тонкий корпус</p>
+                    </div>
+                </article>
+
+            </main>
+
+            <aside class="sidebar">
+                <div class="price-filter desktop-only">
+                    <p class="filter-title">Ціновий діапазон</p>
+                    <div class="range-slider">
+                        <div class="slider-track"></div>
+                        <div class="slider-knob left"></div>
+                        <div class="slider-knob right"></div>
+                    </div>
+                    <p class="range-values">Від 5000 ₴ до 70 000 ₴</p>
+                </div>
+
+                <div class="filter-buttons">
+                    <label for="f-phone">Смартфони</label>
+                    <label for="f-laptop">Ноутбуки</label>
+                    <label for="f-audio">Аудіо</label>
+                    <label for="f-watch">Годинники</label>
+                    <label for="f-all" class="reset">Всі товари</label>
+                </div>
+            </aside>
+
+        </div> 
+        
+        <footer>
+            <div class="footer-col">
+                <strong>ElectroHub</strong>
+                <br>Всі права захищено &copy; 2025
+            </div>
+            <div class="footer-col contacts">
+                <span>Питання? Пишіть нам:</span>
+                <a href="mailto:support@electrohub.ua">support@electrohub.ua</a>
+            </div>
+            <div class="footer-col social">
+                Instagram | Facebook | Telegram
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html> 
